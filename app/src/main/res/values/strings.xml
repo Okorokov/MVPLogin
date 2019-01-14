@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MVPLogin</string>
+    <string name="emailName">Email</string>
+    <string name="passwordName">Password</string>
+    <string name="LOGINName">LOGIN</string>
+</resources>

@@ -1,0 +1,7 @@
+package com.example.hpsus.mvplogin.Model;
+
+public interface IUser {
+    String getEmail();
+    String getPassword();
+    boolean isValidData();
+}
