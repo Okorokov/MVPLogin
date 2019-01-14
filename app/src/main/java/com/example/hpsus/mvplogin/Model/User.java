@@ -27,6 +27,7 @@ public class User implements IUser{
     @Override
     public boolean isValidData() {
         return !TextUtils.isEmpty(getEmail())&&
+                !TextUtils.isEmpty(getPassword())&&
                 Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()&&
                 getPassword().length()>6;
     }
